@@ -1,4 +1,4 @@
-package cs151.hw2.ex4_6;
+package cs151.hw2.ex4_06;
 
 import java.util.*;
 
