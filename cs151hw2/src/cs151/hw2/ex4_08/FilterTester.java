@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Test the Filter
  */
 public class FilterTester {
-	/*
+	/**
 	 * Filter the String
 	 * @param a a String array to be filtered
 	 * @return a String array been filtered

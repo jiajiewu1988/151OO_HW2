@@ -8,7 +8,7 @@ public class BankAccount implements Comparable<BankAccount> {
 	private String accNo;
 	private double bal;
 	
-	/*
+	/**
 	 * Constructor to initialize holder name, account #, and balance
 	 * @param name holder name
 	 * @param num account number
@@ -20,7 +20,7 @@ public class BankAccount implements Comparable<BankAccount> {
 		this.bal = bal;
 	}
 	
-	/*
+	/**
 	 * Get the bank account holder name
 	 * @return holder name
 	 */
@@ -28,7 +28,7 @@ public class BankAccount implements Comparable<BankAccount> {
 		return hName;
 	}
 	
-	/*
+	/**
 	 * Get the account number
 	 * @return account number
 	 */
@@ -36,7 +36,7 @@ public class BankAccount implements Comparable<BankAccount> {
 		return accNo;
 	}
 	
-	/*
+	/**
 	 * Get the balance
 	 * @return balance
 	 */
@@ -44,7 +44,7 @@ public class BankAccount implements Comparable<BankAccount> {
 		return bal;
 	}
 	
-	/*
+	/**
 	 * Compares 2 bank account by balance
 	 * @param other another bank account
 	 * @return a negative number if the balance is less than the balance in other account

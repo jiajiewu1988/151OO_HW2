@@ -7,7 +7,7 @@ public class Country {
 	private String name;
 	private Double area;
 	
-	/*
+	/**
 	 * Coustructs a country
 	 * @param aName the name of the country
 	 * @param aArea the area of the country
@@ -17,7 +17,7 @@ public class Country {
 		area = aArea;
 	}
 	
-	/*
+	/**
 	 * Get the name of the country
 	 * @return country name
 	 */
@@ -25,7 +25,7 @@ public class Country {
 		return name;
 	}
 	
-	/*
+	/**
 	 * Get the area of the country
 	 */
 	public Double getArea() {

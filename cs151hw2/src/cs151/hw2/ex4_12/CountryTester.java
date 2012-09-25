@@ -7,7 +7,7 @@ import java.util.*;
  * @author Jiajie Wu
  */
 public class CountryTester {
-	/*
+	/**
 	 * Create a comparator by country name
 	 * @param increasing decides if the order after sort should be increasing or decreasing
 	 */
@@ -24,7 +24,7 @@ public class CountryTester {
 			};
 	}
 	
-	/*
+	/**
 	 * Create a comparator by country area
 	 * @param increasing decides if the order after sort should be increasing or decreasing 
 	 */

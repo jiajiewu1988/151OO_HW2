@@ -4,7 +4,7 @@ import java.util.*;
 
 public class MaximumTester implements Comparator<String> {
 	
-	/*
+	/**
 	 * Get the longest String in a ArrayList
 	 * @param a a String ArrayList
 	 * @return the longest String in the ArrayList
@@ -19,7 +19,7 @@ public class MaximumTester implements Comparator<String> {
 		}
 	}
 	
-	/*
+	/**
 	 * Compare the length of 2 Strings
 	 * @param s1 a String to compare
 	 * @param s2 another String to compare

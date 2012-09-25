@@ -11,7 +11,7 @@ public class BtnFrame extends JFrame {
 	private final int DEFAULT_WIDTH = 300;
 	private final int DEFAULT_HEIGHT = 200;
 	
-	/*
+	/**
 	 * Constructs a frame
 	 */
 	public BtnFrame() {

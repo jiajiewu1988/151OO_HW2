@@ -8,7 +8,7 @@ import java.util.Comparator;
  */
 public class RectangleComparator implements Comparator<Rectangle2D.Double>{
 	
-	/*
+	/**
 	 * Compare 2 Rectangle2D.Double objects
 	 * @param r1 rectangle to compare
 	 * @param r2 another rectangle to compare

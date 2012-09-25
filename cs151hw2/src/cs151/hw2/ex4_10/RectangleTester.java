@@ -8,7 +8,7 @@ import java.util.Collections;
  * Test the RectangleComparator.java
  */
 public class RectangleTester {
-	/*
+	/**
 	 * print the the x, y, width, and heigt of a rectangle
 	 * @param rec rectangle to display
 	 */
