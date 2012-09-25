@@ -1,6 +1,6 @@
 package cs151.hw2.ex4_12;
 
-/*
+/**
  * To create country object
  */
 public class Country {

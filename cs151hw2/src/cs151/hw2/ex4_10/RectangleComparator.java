@@ -3,7 +3,7 @@ package cs151.hw2.ex4_10;
 import java.awt.geom.Rectangle2D;
 import java.util.Comparator;
 
-/*
+/**
  * Comparator to compare 2 Rectangle2D.Double objects by x, y, width, and height
  */
 public class RectangleComparator implements Comparator<Rectangle2D.Double>{

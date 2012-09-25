@@ -1,6 +1,6 @@
 package cs151.hw2.ex4_04;
 
-/*
+/**
  * A bank account with holder name, account #, and balance
  */
 public class BankAccount implements Comparable<BankAccount> {

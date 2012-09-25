@@ -2,7 +2,7 @@ package cs151.hw2.ex4_08;
 
 import java.util.ArrayList;
 
-/*
+/**
  * Test the Filter
  */
 public class FilterTester {

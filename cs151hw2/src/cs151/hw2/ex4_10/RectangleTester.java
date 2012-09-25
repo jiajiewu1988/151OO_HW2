@@ -4,7 +4,7 @@ import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/*
+/**
  * Test the RectangleComparator.java
  */
 public class RectangleTester {

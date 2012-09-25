@@ -2,7 +2,7 @@ package cs151.hw2.ex4_12;
 
 import java.util.*;
 
-/*
+/**
  * Test the Comparator<Country> interface and sort a ArrayList of Country
  * @author Jiajie Wu
  */
