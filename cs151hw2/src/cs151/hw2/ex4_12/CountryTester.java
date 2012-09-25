@@ -69,5 +69,4 @@ public class CountryTester {
 		}
 		
 	}
-	//8888
 }
