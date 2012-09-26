@@ -43,7 +43,7 @@ public class CountryTester {
 	
 	public static void main(String args[]) {
 		ArrayList<Country> cArrayList = new ArrayList<Country>();
-		boolean increasing = true;
+		boolean increasing = false;
 		Comparator<Country> cmpByName = createComparatorByName(increasing);
 		Comparator<Country> cmpByArea = createComparatorByArea(increasing);
 		
