@@ -1,16 +1,17 @@
 package cs151.hw2.ex4_14;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.GridBagLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
+/**
+ * Test the buttons 
+ * @author Jiajie Wu
+ *
+ */
 public class ButtonTester {
 	public static void main(String args[]) {
 		BtnFrame frame = new BtnFrame();
@@ -42,7 +43,7 @@ public class ButtonTester {
 			}
 		});
 		
-		frame.setLayout(new GridLayout(2,2));
+		frame.setLayout(new GridLayout(2, 2));
 		frame.add(rBtn);
 		frame.add(bBtn);
 		frame.add(gBtn);
