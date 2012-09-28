@@ -1,7 +1,6 @@
 package cs151.hw2.ex4_20;
 
 import java.awt.*;
-import java.util.*;
 import javax.swing.*;
 
 /**

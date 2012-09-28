@@ -44,7 +44,7 @@ public class AnimationTester
             public void actionPerformed(ActionEvent event)
             {
                shape.translate(1, 0);
-               shape2.translate(1, 0);
+               shape2.translate(2, 0);
                label.repaint();
                label2.repaint();
             }

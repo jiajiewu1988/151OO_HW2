@@ -2,7 +2,6 @@ package cs151.hw2.ex4_20;
 
 import java.awt.*;
 import java.awt.geom.*;
-import java.util.*;
 
 /**
    A car that can be moved around.
