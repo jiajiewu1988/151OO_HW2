@@ -1,4 +1,4 @@
-package cs151.hw2.ex4_20;
+package cs151.hw2.ex4_22;
 
 import java.awt.*;
 import javax.swing.*;

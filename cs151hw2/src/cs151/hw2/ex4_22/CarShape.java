@@ -1,4 +1,4 @@
-package cs151.hw2.ex4_20;
+package cs151.hw2.ex4_22;
 
 import java.awt.*;
 import java.awt.geom.*;
@@ -22,10 +22,14 @@ public class CarShape implements MoveableShape
       this.width = width;
    }
 
-   public void translate(int dx, int dy)
+   public void translate(int dx, int dy, int iconWidth)
    {
       x += dx;
       y += dy;
+      
+      if (x > iconWidth) {
+    	  x -= iconWidth;
+      }
    }
 
    public void draw(Graphics2D g2)

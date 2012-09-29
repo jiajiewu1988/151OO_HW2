@@ -1,40 +1,29 @@
-package cs151.hw2.ex4_20;
+package cs151.hw2.ex4_22;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-import java.util.ArrayList;
-
 /**
    This program implements an animation that moves, show multiple cars move
    a car shape.
-   @author Jiajie Wu
+   @author Jiajie wu
 */
 public class AnimationTester
 {
    public static void main(String[] args)
    {
       JFrame frame = new JFrame();
-      frame.setLayout(new GridLayout(3, 1));
+      frame.setLayout(new FlowLayout());
 
       final MoveableShape shape
             = new CarShape(0, 0, CAR_WIDTH);
-      
-      ArrayList<ShapeIcon> iconList = new ArrayList<ShapeIcon>();
-      
-      iconList.add(new ShapeIcon(shape, ICON_WIDTH, ICON_HEIGHT));
-      iconList.add(new ShapeIcon(shape, ICON_WIDTH, ICON_HEIGHT));
-      iconList.add(new ShapeIcon(shape, ICON_WIDTH, ICON_HEIGHT));
 
-      final ArrayList<JLabel> labelList = new ArrayList<JLabel>();
-      for (int i = 0; i < iconList.size(); i++) {
-    	  labelList.add(new JLabel(iconList.get(i)));
-    	  frame.add(labelList.get(i));
-      }
+      ShapeIcon icon = new ShapeIcon(shape, ICON_WIDTH, ICON_HEIGHT);   
       
-      
+      final JLabel label = new JLabel(icon);
 
+      frame.add(label);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame.pack();
       frame.setVisible(true);
@@ -46,10 +35,8 @@ public class AnimationTester
          {
             public void actionPerformed(ActionEvent event)
             {
-               shape.translate(3, 0);
-               for (JLabel l : labelList) {
-            	   l.repaint();
-               }
+               shape.translate(2, 0, ICON_WIDTH);
+               label.repaint();
             }
          });
       t.start();
