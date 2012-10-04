@@ -2,6 +2,11 @@ package cs151.hw2.ex4_06;
 
 import java.util.*;
 
+/**
+ * Class to find the String with Maximum length
+ * @author Jiajie Wu
+ *
+ */
 public class MaximumTester implements Comparator<String> {
 	
 	/**
