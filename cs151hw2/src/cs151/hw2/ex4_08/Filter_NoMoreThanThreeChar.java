@@ -5,7 +5,7 @@ package cs151.hw2.ex4_08;
  */
 public class Filter_NoMoreThanThreeChar implements Filter{
 	
-	/*
+	/**
 	 * Filter the String
 	 * @return true if string length is less than or equal to 3, otherwise false
 	 */
